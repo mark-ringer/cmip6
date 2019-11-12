@@ -2,9 +2,9 @@
 
 This repository contains time series of annual-mean globally-averaged variables from various CMIP6 experiments, together with analysis of climate sensitivities, forcing and feedbacks.
 
-## Global-mean time series
+## Global-mean anomaly time series
 
-Anomalies are calculated by subtracting the trend in piControl calculated over the time period parallel to the perturbation experiment, as in [Andrews et al. (2012)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012GL051607) and [Forster et al. (2013)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/jgrd.50174).
+Anomalies are calculated by subtracting the trend in piControl calculated over the time period parallel to the perturbation experiment, as in [Andrews et al. (2012)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012GL051607) and [Forster et al. (2013)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/jgrd.50174). The final column is the multimodel mean.
 
 |filename|description|
 |--|--|
@@ -14,11 +14,15 @@ Anomalies are calculated by subtracting the trend in piControl calculated over t
 |`delta_variable_experimentid_cmip6.csv` | anomalies in *variable* relative to piControl in the *experimentid* experiment
 
 
-##  Analysis
+## Analysis
 
 `gregory_plot_cmip6.csv`
 
 Linear regression of anomaly in net top-of-atmosphere flux vs. anomaly in surface air temperature over the first 150 years of the abrupt-4xCO2 experiment, following [Gregory et al. (2004)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2003GL018747). `gregory_plot_cmip6.txt` contains the same information in a plain text file.
+
+`gregory_plot_fast_cmip6.csv` and `gregory_plot_slow_cmip6.csv`
+
+As for the standard Gregory plot but using years 1-20 (*fast*) and years 21-150 (*slow*) of the abrupt-4xCO2 experiment respectively, following [Andrews et al. (2015)](https://journals.ametsoc.org/doi/full/10.1175/JCLI-D-14-00545.1)
 
 |parameter|description|units|
 |--|--|--|
