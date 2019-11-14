@@ -43,6 +43,17 @@ The transient climate response (TCR), derived from the 1pctCO2 experiment.
 |*T140*|*tas* anomaly averaged over years 131-150|K|
 |*ratio*|T140 / TCR |unitless|
 
+
+`ohue_cmip6.csv`
+
+Linear regression of anomaly in net top-of-atmosphere flux vs. anomaly in surface air temperature in the 1pctCO2 experiment, following [Gegory and Mitchell (1997)](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/97GL01930). The slope of the regression line is the ocean heat uptake efficiency (OHUE, *kappa*).
+
+|parameter|description|units|
+|--|--|--|
+|*kappa_01_70*|*OHUE* calculated over years 1-70|W m<sup>-2 </sup>K<sup>-1</sup>|
+|*kappa_71_140*|*OHUE* calculated over years 71-140|W m<sup>-2 </sup>K<sup>-1</sup>|
+
+
 `two_layer_cmip6.csv`
 
 Fit to the two-layer model of the surface air temperature anomalies in the abrupt-4xCO2 experiment using the method described in [Geoffroy et al. (2013)](https://journals.ametsoc.org/doi/full/10.1175/JCLI-D-12-00195.1).
