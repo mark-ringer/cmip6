@@ -70,6 +70,13 @@ Fit to the two-layer model of the surface air temperature anomalies in the abrup
 | *a_s*|contribution to *delta_tas* from the slow mode, *1 - a_f* |unitless|
 
 
+## Plots
+
+`ecs_cmip6_cmip5.png` and `tcr_cmip6_cmip5.png`
+
+Standard box plots (median, interquartile range, max, min) with ensemble mean shown as dashed line and individual models shown as open circles. The IPCC AR5 likely (17 - 83%) range is shown for reference.
+
+
 ### Acknowledgement
 
 I acknowledge the World Climate Research Programme, which, through its Working Group on Coupled Modelling, coordinated and promoted CMIP6. I thank the climate modeling groups for producing and making available their model output, the Earth System Grid Federation (ESGF) for archiving the data and providing access, and the multiple funding agencies who support CMIP6 and ESGF.
