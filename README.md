@@ -46,7 +46,7 @@ The transient climate response (TCR), derived from the 1pctCO2 experiment.
 
 `ohue_cmip6.csv`
 
-Linear regression of anomaly in net top-of-atmosphere flux vs. anomaly in surface air temperature in the 1pctCO2 experiment, following [Gegory and Mitchell (1997)](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/97GL01930). The slope of the regression line is the ocean heat uptake efficiency (OHUE, *kappa*).
+Linear regression of anomaly in net top-of-atmosphere flux vs. anomaly in surface air temperature in the 1pctCO2 experiment, following [Gregory and Mitchell (1997)](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/97GL01930). The slope of the regression line is the ocean heat uptake efficiency (OHUE, *kappa*).
 
 |parameter|description|units|
 |--|--|--|
